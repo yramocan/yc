@@ -1,6 +1,21 @@
 $(document).ready(function() {
+  $("#video-wrapper").addClass("tubular-play")
+
+  $("#video-wrapper").click(function() {
+    $("#video-wrapper").toggleClass("tubular-pause tubular-play");
+  });
+
+  function youtube_parser(url) {
+    var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
+    var match = url.match(regExp);
+    return (match&&match[7].length==11)? match[7] : false;
+  }
+
+  var link = "https://youtu.be/SdbJNg2dsng"
+  var video_id = youtube_parser(link);
+
   $('#video-wrapper').tubular({
-    videoId: 'SdbJNg2dsng',
+    videoId: video_id,
     playerVars: {
       iv_load_policy: 3,
       disablekb: 1,
@@ -15,4 +30,6 @@ $(document).ready(function() {
       origin: window.location.origin
     }
   });
+
+  
 });
