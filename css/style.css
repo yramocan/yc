@@ -1,0 +1,125 @@
+html, html a {
+  font-family: "DIN", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+h1#header {
+  padding: 10px 0 20px 0;
+  font-size: 4em;
+}
+
+h1#header a {
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+#text-box {
+  margin-top: 10em;
+}
+
+#volume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1em;
+  text-align: center;
+}
+
+#volume i {
+  color: white;
+  opacity: 0.6;
+}
+
+/*#enter-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  text-align: center;
+  bottom: 50px;
+  padding: 10px 25px 10px 25px;
+  border: none;
+  border-radius: 2px;
+  font-size: 22px;
+}*/
+
+#container {
+  position: relative;
+}
+
+.background-video {
+  background-position: top center;
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+video,
+source {
+  bottom: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+}
+
+.loaded .ytplayer-container {
+  display: block;
+}
+
+.loaded .placeholder-image {
+  opacity: 0;
+}
+
+/*.ytplayer-container {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  min-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.placeholder-image {
+  height: 100%;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.ytplayer-shield {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.ytplayer-player {
+  position: absolute;
+}
+
+.container {
+  border-radius: 6px;
+  background: rgba(255, 255, 255, .9);
+  padding: 0 30px 0 30px;
+  margin: 30px auto;
+}*/
