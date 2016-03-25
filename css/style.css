@@ -52,6 +52,10 @@ h1#header a {
   display: block;
 }
 
+#mobile-notice {
+  color: white;
+}
+
 @media screen and (max-width: 598px) {
   #text-box {
     left: 20% !important;

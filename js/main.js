@@ -22,6 +22,8 @@ $(document).ready(function() {
     var link = "https://youtu.be/SdbJNg2dsng"
     var video_id = youtube_parser(link);
 
+    $('#mobile-video-tag').innerHTML = link;
+
     $('#video-wrapper').tubular({
       videoId: video_id,
       playerVars: {
