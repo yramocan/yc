@@ -24,7 +24,7 @@ h1#header a {
 #text-box {
   position: fixed;
   top: 60%;
-  left: 40% !important;
+  left: 38% !important;
 }
 
 @media screen and (max-width: 1350px) {
@@ -33,13 +33,13 @@ h1#header a {
   }
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 598px) {
   #text-box {
-    left: 25% !important;
+    left: 20% !important;
   }
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 500px) {
   #text-box {
     top: 40% !important;
   }
@@ -52,6 +52,9 @@ h1#header a {
 }
 
 #enter-button {
+  border-radius: 2px;
+  padding: 15px;
+  background-color: black;
   -webkit-animation: fadein 15.5s; /* Safari and Chrome */
   -moz-animation: fadein 15.5s; /* Firefox */
   -ms-animation: fadein 15.5s; /* Internet Explorer */
