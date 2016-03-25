@@ -38,6 +38,9 @@ $(document).ready(function() {
         origin: window.location.origin
       }
     });
+  } else {
+    $('#main-content').addClass('hide-main');
+    $('#mobile-backdrop').addClass('show-mobile');
   }
 
 

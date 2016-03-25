@@ -44,15 +44,15 @@ h1#header a {
   }
 }
 
+.hide-main {
+  display: none;
+}
+
+.show-mobile {
+  display: block;
+}
+
 @media screen and (max-width: 598px) {
-  #video-wrapper {
-    display: none;
-  }
-
-  #mobile-backdrop {
-    display: block;
-  }
-
   #text-box {
     left: 20% !important;
   }
