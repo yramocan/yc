@@ -1,5 +1,5 @@
 html, html a {
-  font-family: "Indie Flower", sans-serif;
+  font-family: "Amatic SC", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
@@ -24,7 +24,7 @@ h1#header a {
 #text-box {
   position: fixed;
   top: 60%;
-  left: 38% !important;
+  left: 44% !important;
 }
 
 #mobile-backdrop {
@@ -40,7 +40,7 @@ h1#header a {
 
 @media screen and (max-width: 1350px) {
   #text-box {
-    left: 35% !important;
+    left: 40% !important;
   }
 }
 
@@ -58,7 +58,7 @@ h1#header a {
 
 @media screen and (max-width: 598px) {
   #text-box {
-    left: 20% !important;
+    left: 35% !important;
   }
 }
 
