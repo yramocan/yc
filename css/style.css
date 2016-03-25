@@ -1,5 +1,5 @@
 html, html a {
-  font-family: "DIN", sans-serif;
+  font-family: "Indie Flower", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
@@ -11,7 +11,7 @@ h1#header {
 
 h1#header a {
   color: white;
-  opacity: 0.6;
+  opacity: 0.4;
   text-decoration: none;
 }
 
@@ -74,9 +74,13 @@ h1#header a {
   text-align: center;
 }
 
+#enter-text {
+  opacity: 0.6;
+}
+
 #enter-button {
   border-radius: 2px;
-  padding: 15px;
+  padding: 7px 18px;
   background-color: black;
   -webkit-animation: fadein 15.5s; /* Safari and Chrome */
   -moz-animation: fadein 15.5s; /* Firefox */
@@ -87,25 +91,25 @@ h1#header a {
 
 @keyframes fadein {
   from { opacity: 0; }
-  to   { opacity: 0.6; }
+  to   { opacity: 0.4; }
 }
 
 /* Firefox */
 @-moz-keyframes fadein {
   from { opacity: 0; }
-  to   { opacity: 0.6; }
+  to   { opacity: 0.4; }
 }
 
 /* Safari and Chrome */
 @-webkit-keyframes fadein {
   from { opacity: 0; }
-  to   { opacity: 0.6; }
+  to   { opacity: 0.4; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
   from { opacity: 0; }
-  to   { opacity: 0.6; }
+  to   { opacity: 0.4; }
 }
 
 /* Opera */
