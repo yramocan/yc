@@ -27,6 +27,16 @@ h1#header a {
   left: 38% !important;
 }
 
+#mobile-backdrop {
+  z-index: 1;
+  display: none;
+  background-color: black;
+}
+
+#mobile-backdrop h1 {
+  color: white;
+}
+
 @media screen and (max-width: 1350px) {
   #text-box {
     left: 35% !important;
@@ -34,6 +44,14 @@ h1#header a {
 }
 
 @media screen and (max-width: 598px) {
+  #video-wrapper {
+    display: none;
+  }
+
+  #mobile-backdrop {
+    display: block;
+  }
+
   #text-box {
     left: 20% !important;
   }
