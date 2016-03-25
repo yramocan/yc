@@ -53,7 +53,7 @@ h1#header a {
 }
 
 #mobile-notice {
-  color: white;
+  color: grey;
 }
 
 @media screen and (max-width: 598px) {
